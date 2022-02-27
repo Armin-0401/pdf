@@ -2,4 +2,3 @@
 
 [⛰释山.Mountain.Watching.2020@B-JOY](https://www.lindaxia.cf/web/viewer.html)
 
-[下载](https://www.lindaxia.cf/web/mountain.pdf)
