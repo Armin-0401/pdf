@@ -41,10 +41,14 @@ See https://github.com/adobe-type-tools/cmap-resources
   </head>
     
 <script>
-window.ga_tid = "UA-221503121-1"; // {String} The trackerID of your site.
-window.ga_api = "https://rough-resonance-5f6f.foyop731116462.workers.dev/"; // {String} The route of your cloudflare workers you just registered before.
-</script>
-<script src="https://rmt.dogedoge.com/fetch/public/ga.js" async=""></script>
+  window.ga_tid = 'UA-221503121-1';
+  (function() {
+    var dga = document.createElement("script");
+    dga.src = "https://rmt.dogedoge.com/fetch/public/ga.js";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(dga, s);
+  })();
+</script>    
     
   <body tabindex="1">
     <div id="outerContainer">
